@@ -11,43 +11,19 @@
   "sections": {
     "image_with_text_overlay_UMqnfH": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_kyByUW": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_btrLzU": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_WKt6Cn": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_kyByUW",
-        "heading_btrLzU",
-        "richtext_WKt6Cn"
-      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Copilot_20260507_212038.png",
+        "mobile_image": "shopify://shop_images/Copilot_20260507_212739.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "logo_list_GJbdQX": {
@@ -56,35 +32,24 @@
         "logo_3e3HjJ": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Screenshot_2026-05-06_211227.png",
+            "logo_width": 180,
             "link": ""
           }
         },
         "logo_6c6PkW": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Screenshot_2026-05-06_211317.png",
+            "logo_width": 210,
             "link": ""
           }
         },
         "logo_h3ECBF": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_bzEk34": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_PGhizE": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Screenshot_2026-05-06_211249.png",
+            "logo_width": 150,
             "link": ""
           }
         }
@@ -92,17 +57,15 @@
       "block_order": [
         "logo_3e3HjJ",
         "logo_6c6PkW",
-        "logo_h3ECBF",
-        "logo_bzEk34",
-        "logo_PGhizE"
+        "logo_h3ECBF"
       ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Logo list",
+        "title": "As seen on",
         "content": "",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "items_per_row": 5,
         "background": "",
         "background_gradient": "",
@@ -119,11 +82,13 @@
         "image_MCQkbG": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Copilot_20260507_211744.png",
+            "mobile_image": "shopify://shop_images/Copilot_20260507_212557.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -131,7 +96,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -215,77 +180,6 @@
         "text_color": ""
       }
     },
-    "video_zL8Cex": {
-      "type": "video",
-      "blocks": {
-        "play_CBkjrR": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_hkyBPn": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_CBkjrR",
-        "heading_hkyBPn"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_jWRp3x": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_yKGUXi": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_nF3hGM": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_XTkjEH": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_yKGUXi",
-        "heading_nF3hGM",
-        "richtext_XTkjEH"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "logo_list_wThYmL": {
       "type": "logo-list",
       "blocks": {
@@ -352,15 +246,26 @@
     "testimonials_HgfGeJ": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_wWrbWk": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Carolina",
+            "title": "",
+            "content": "<p>Took this with me to the hospital when I went into labor 🤍 fit everything I needed and somehow made me feel calmer too. The colors and vibe of it just gave me such positive energy</p>"
+          }
+        },
         "testimonial_pnCyJB": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Emily B",
+            "title": "",
+            "content": "<p>Literally one of the cutest mom bag I’ve ever owned 😭 fits sooo much stuff and still looks pretty</p>"
           }
         },
         "testimonial_xm8QeQ": {
@@ -369,9 +274,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Cynthia",
+            "title": "",
+            "content": "<p>I’ve been using this every day since I got it lol. Super comfy to carry and I LOVE the colors</p>"
           }
         },
         "testimonial_NfxzqC": {
@@ -379,14 +284,15 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "Estee",
+            "title": "",
+            "content": "<p>Doesn’t even feel like a diaper bag honestly. It actually matches my style for once</p>"
           }
         }
       },
       "block_order": [
+        "testimonial_wWrbWk",
         "testimonial_pnCyJB",
         "testimonial_xm8QeQ",
         "testimonial_NfxzqC"
@@ -394,7 +300,7 @@
       "name": "Testimonials",
       "settings": {
         "full_width": true,
-        "stack_testimonials": true,
+        "stack_testimonials": false,
         "subheading": "",
         "title": "Testimonials",
         "content": "",
@@ -594,6 +500,27 @@
         "heading_gradient": ""
       }
     },
+    "contact_34MLtA": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -645,27 +572,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "contact_34MLtA": {
-      "type": "contact",
-      "name": "Contact form",
-      "settings": {
-        "full_width": true,
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
-        "content": "",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
@@ -673,8 +579,6 @@
     "logo_list_GJbdQX",
     "slideshow_M6bWdm",
     "rich_text_GcAhqD",
-    "video_zL8Cex",
-    "rich_text_jWRp3x",
     "logo_list_wThYmL",
     "testimonials_HgfGeJ",
     "image_with_text_overlay_XNhnEh",
